@@ -2,7 +2,7 @@ name: Selenium BDD CI with Maven
 
 on:
   push:
-    branches: [ "dev" ]
+    branches: [ "main" ]
   pull_request:
     paths:
       - 'src/**'
